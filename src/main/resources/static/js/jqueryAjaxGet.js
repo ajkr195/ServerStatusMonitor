@@ -1,5 +1,7 @@
 $(document).ready(function() {
-	
+	$('#refreshButton').click(function() {
+	    location.reload();
+	});
 	ajaxGet();
 	
 	// DO GET
