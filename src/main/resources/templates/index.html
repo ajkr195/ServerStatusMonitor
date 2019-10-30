@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>SpringBoot - Server Monitor</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script type="application/javascript"
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+<script type="application/javascript" src="/js/jqueryAjaxGet.js"></script>
+<script
+	src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+	crossorigin="anonymous"></script>
+<link th:href="@{/css/main.css}" href="/css/main.css" rel="stylesheet"
+	type="text/css" />
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous" />
+<link rel="stylesheet"	href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+	<script type="application/javascript"
+	src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark py-1">
+		<a class="navbar-brand" href="/">SpringBoot - Server Monitor</a>
+		<button type="button" class="navbar-toggler" data-toggle="collapse"
+			data-target="#nav">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-between" id="nav">
+
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="/">Link 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="/">Link 2</a></li>
+				<li class="nav-item dropdown"><a
+					class="nav-link dropdown-toggle" href="/" id="navbardrop"
+					data-toggle="dropdown"> Dropdown link </a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="/">Link 1</a> <a
+							class="dropdown-item" href="/">Link 2</a> <a
+							class="dropdown-item" href="/">Link 3</a>
+					</div></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="card-header bg-success text-white py-0"
+		style="text-align: center">
+		<h6>
+			<b>Server Monitor</b>
+		</h6>
+	</div>
+
+
+
+<br>
+
+	<div class="container">
+		<!-- 		<h1>Server Table</h1> -->
+		<div class="row">
+			<table id="serverTable"
+				class="table  table-responsive table-condensed table-bordered table-hover">
+				<thead>
+					<tr>
+						<th>ServerId</th>
+						<th>URI</th>
+						<th>ServerName</th>
+						<th>ServerAuthority</th>
+						<th>ServerProtocol</th>
+						<th>ServerPort#</th>
+						<th>PortListening?</th>
+						<th>SearchText</th>
+
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<span class="text-muted">SPRING BOOT based Server Monitor
+				Application</span>
+		</div>
+	</footer>
+</body>
+</html>
