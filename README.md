@@ -4,4 +4,4 @@
 
 <h4> SCREENSHOT </h4>
 
-![ServerStatusMonitor](https://github.com/ajkr195/ServerStatusMonitor/blob/master/ServerMonitor.jpg)
+![ServerStatusMonitor](https://github.com/ajkr195/ServerStatusMonitor/blob/master/ServerMonitorSShot.jpg)
