@@ -27,7 +27,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark py-1">
+	<nav class="navbar bg-custom navbar-expand-sm bg-dark navbar-dark py-1">
 		<a class="navbar-brand" href="/">SpringBoot - Server Monitor</a>
 		<button type="button" class="navbar-toggler" data-toggle="collapse"
 			data-target="#nav">
@@ -60,7 +60,7 @@
 
 	<br>
 	<div class="col text-center">
-		<button type="button" id="refreshButton" class="btn btn-primary">Click Here To Refresh Status</button>
+		<button type="button" id="refreshButton" class="btn-sm btn-primary">Click Here To Refresh Status</button>
 	</div>
 	<div class="container">
 		<!-- 		<h1>Server Table</h1> -->
@@ -69,14 +69,14 @@
 				class="table  table-responsive table-condensed table-bordered table-hover">
 				<thead>
 					<tr>
-						<th>ServerId</th>
+						<th>ID</th>
 						<th>URI</th>
-						<th>ServerName</th>
-						<th>ServerAuthority</th>
-						<th>ServerProtocol</th>
-						<th>ServerPort#</th>
-						<th>PortListening?</th>
-						<th>SearchText</th>
+						<th>Name</th>
+						<th>Authority</th>
+						<th>Protocol</th>
+						<th>Port#</th>
+						<th>Listening?</th>
+						<th>TextFound?</th>
 
 					</tr>
 				</thead>

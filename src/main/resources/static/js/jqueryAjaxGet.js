@@ -14,7 +14,7 @@ $(document).ready(function() {
 					
 					var serverRow = '<tr>' +
 										'<td>' + server.serverid + '</td>' +
-										'<td>' + server.serverurl + '</td>' +
+										'<td><a href="'+ server.serverurl + '" target="_blank" </a>'+ server.serverurl + '</td>' +
 										'<td>' + server.servername + '</td>' +
 										'<td>' + server.serverauthority + '</td>' +
 										'<td>' + server.serverprotocol + '</td>' +
